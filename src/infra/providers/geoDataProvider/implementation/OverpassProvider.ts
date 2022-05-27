@@ -5,15 +5,15 @@ import { IGeodataProvider } from "../IGeodataProvider";
 import * as Api from "./configs/types";
 
 export class OverpassProvider implements IGeodataProvider {
-  private axiosInstance = Axios;
+  private httpCaller = Axios;
   constructor() {}
 
   public async getData(): Promise<any> {
     const query = queries("3600297636", "node");
 
     const { data, headers, request, status } =
-      await this.axiosInstance.get<Api.Received>(
-        env.overpassBaseUrl as string,
+      await this.httpCaller.get<Api.Received>(
+        env.geodataProviderBaseUrl as string,
         { data: query?.bus }
       );
     console.log(data);
