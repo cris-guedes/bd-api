@@ -1,3 +1,5 @@
+import { Node } from "../../../domain/entities/node";
+
 export interface IGeodataProvider {
-  getData(): Promise<any>;
+  getData(areaId: number): Promise<[Node]>;
 }

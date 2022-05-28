@@ -5,9 +5,11 @@ export class GetBusStopController {
   constructor(private getBusStopUseCase: GetBusStopUseCase) {}
 
   public async handle(request: Request, response: Response) {
+    const q = request.query.q as string;
+
     try {
-      console.log("use case");
-      const data = await this.getBusStopUseCase.execute();
+      console.log("controller", q);
+      const data = await this.getBusStopUseCase.execute({ q });
       console.log(data);
       return response.status(201).json(data);
     } catch (err: any) {
