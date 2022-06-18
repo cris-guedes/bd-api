@@ -3,7 +3,7 @@ import getBusStopController from "../domain/useCases/getBusStop";
 
 const route = Router();
 
-route.get("/getbusstop", (request, response) => {
+route.get("/bus", (request, response) => {
   return getBusStopController.handle(request, response);
 });
 

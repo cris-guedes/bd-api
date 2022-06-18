@@ -1,0 +1,507 @@
+access (yes) (entrada de caverna?)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["access"="yes"](area.area_0);
+);
+(._;>;);
+out body;
+------------------------------------------------------
+access (private) (privados aeroporto?)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["access"="private"](area.area_0);
+);
+(._;>;);
+out body;
+-----------------------------------------------------
+access (permissive) (banheiro publico)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["access"="permissive"](area.area_0);
+);
+(._;>;);
+out body;
+----------------------------------------------------
+addr:city (tras vários pontos aleatórios - col novo hor, loja de moveis e pneu)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["addr:city"](area.area_0);
+);
+(._;>;);
+out body;
+-----------------------------------------------------
+addr:housenumber (mesmo que o addr:city + alguns pontos)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["addr:housenumber"](area.area_0);
+);
+(._;>;);
+out body;
+------------------------------------------------------
+addr:postcode (semelhante aos outros 2 acima)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["addr:postcode"](area.area_0);
+);
+(._;>;);
+out body;
+-------------------------------------------------------
+addr:street (mesma coisa que os 3 acima)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["addr:street"](area.area_0);
+);
+(._;>;);
+out body;
+-------------------------------------------------------
+amenity (pontos de telefone, restaurantes, pontos de taxi)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["amenity"](area.area_0);
+);
+(._;>;);
+out body;
+
+amenity (school) = aulade ingles
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["amenity"="school"](area.area_0);
+);
+(._;>;);
+out body;
+----------------------------------------------------
+barrier (rua sem saida)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["barrier"](area.area_0);
+);
+(._;>;);
+out body;
+----------------------------------------------------
+brand (loja de carros e subway?)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["brand"](area.area_0);
+);
+(._;>;);
+out body;
+-----------------------------------------------------
+building (dois pontos aleatorios)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["building"](area.area_0);
+);
+(._;>;);
+out body;
+----------------------------------------------------
+construction (traz 1 node no biopark)]
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["construction"](area.area_0);
+);
+(._;>;);
+out body;
+-----------------------------------------------------
+craft (traz um node perto da rodoviario - não sei q loja é)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["craft"](area.area_0);
+);
+(._;>;);
+out body;
+----------------------------------------------------
+cuisine (alguns restaurantes)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["cuisine"](area.area_0);
+);
+(._;>;);
+out body;
+------------------------------------------------
+delivery (bobs)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["delivery"](area.area_0);
+);
+(._;>;);
+out body;
+----------------------------------------------
+direction (algumas ruas que tem a seta indicando que pode virar)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["direction"](area.area_0);
+);
+(._;>;);
+out body;
+--------------------------------------
+ford (caminho pela agua)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["ford"](area.area_0);
+);
+(._;>;);
+out body;
+-------------------------------------
+generator:source (hidrelétrica no perimetro de toledo)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["generator:source"](area.area_0);
+);
+(._;>;);
+out body;
+-------------------------------------
+healthcare (farmacia e dentistas)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["healthcare"](area.area_0);
+);
+(._;>;);
+out body;
+---------------------------------------
+healthcare:speciality (clinica apoiar)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["healthcare:speciality"](area.area_0);
+);
+(._;>;);
+out body;
+----------------------------------------
+highway (ponto de onibus, retornos e afins)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["highway"](area.area_0);
+);
+(._;>;);
+out body;
+----------------------------------------
+historic (monumentos, estatuas, prefeitura)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["historic"](area.area_0);
+);
+(._;>;);
+out body;
+----------------------------------------
+lamp_type (estacionamento biopark)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["lamp_type"](area.area_0);
+);
+(._;>;);
+out body;
+----------------------------------------
+landuse (copel e fatritol)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["landuse"](area.area_0);
+);
+(._;>;);
+out body;
+------------------------------------
+leisure (não entendi - tolefit, parque de agua e?)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["leisure"](area.area_0);
+);
+(._;>;);
+out body;
+-------------------------------------------------
+location (1 node biopark)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["location"](area.area_0);
+);
+(._;>;);
+out body;
+---------------------------
+man_made (torres, bandeiras, afins)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["man_made"](area.area_0);
+);
+(._;>;);
+out body;
+-----------------------------
+name (coisa pra caralho)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["name"](area.area_0);
+);
+(._;>;);
+out body;
+-------------------------------
+natural (parques)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["natural"](area.area_0);
+);
+(._;>;);
+out body;
+-------------------------
+noexit (rua sem saida)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["noexit"="yes"](area.area_0);
+);
+(._;>;);
+out body;
+--------------------------
+office (alguns escritórios)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["office"](area.area_0);
+);
+(._;>;);
+out body;
+--------------------------
+operator:type (clinica apoiar dnovo)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["operator:type"](area.area_0);
+);
+(._;>;);
+out body;
+---------------------
+operator (clinca apoio, bancos, alguns ponto de bus)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["operator"](area.area_0);
+);
+(._;>;);
+out body;
+-----------------------------
+piste:type (ponto aleatorio)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["piste:type"](area.area_0);
+);
+(._;>;);
+out body;
+-------------------------------
+place (predios e sei la uftpr)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["place"](area.area_0);
+);
+(._;>;);
+out body;
+---------------------------
+power (cabos/torres de energia)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["power"](area.area_0);
+);
+(._;>;);
+out body;
+------------------------------
+public_transport (pontos de onibus atual)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["public_transport"](area.area_0);
+);
+(._;>;);
+out body;
+----------------------------
+public_transport:version (rodoviaria e oq?)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["public_transport:version"](area.area_0);
+);
+(._;>;);
+out body;
+----------------------------------
+ref (correios centro de distribuição)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["ref"](area.area_0);
+);
+(._;>;);
+out body;
+-----------------------------
+religion (catedrais e edificios religiosos)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["religion"](area.area_0);
+);
+(._;>;);
+out body;
+-----------------------------------
+shop (lojas)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["shop"](area.area_0);
+);
+(._;>;);
+out body;
+--------------------------------
+short_name (1 node prefeitura)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["shop"](area.area_0);
+);
+(._;>;);
+out body;
+-----------------------------
+sport (parque tematico das aguas)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["short_name"](area.area_0);
+);
+(._;>;);
+out body;
+---------------------------
+stop (locais com a marca "stop" no chao)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["stop"](area.area_0);
+);
+(._;>;);
+out body;
+----------------------------
+surface (nao entendi)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["surface"](area.area_0);
+);
+(._;>;);
+out body;
+------------------------------
+takeaway (bobs e subway)
+
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["tower:type"](area.area_0);
+);
+(._;>;);
+out body;
+-----------------------------
+traffic calming (quebra molas)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["traffic_calming"](area.area_0);
+);
+(._;>;);
+out body;
+-------------------------------
+traffic sign -1 (1 node de placa de transito)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["traffic_sign"](area.area_0);
+);
+(._;>;);
+out body;
+---------------------------
+tranformer - 1 (1 node no biopark)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["transformer"](area.area_0);
+);
+(._;>;);
+out body;
+----------------------------
+type (acho que arbustos)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["type"](area.area_0);
+);
+(._;>;);
+out body;
+--------------------------
+wikidata (1 ponto biopark e 1 ponto prefeitura)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["wikidata"](area.area_0);
+);
+(._;>;);
+out body;
+-------------------------
+wikipedia (1 ponto biopark e 1 ponto prefeitura)
+[out:xml] [timeout:25];
+ area(3600297636) -> .area_0;
+(
+    node["wikipedia"](area.area_0);
+);
+(._;>;);
+out body;
+---------------------------------------

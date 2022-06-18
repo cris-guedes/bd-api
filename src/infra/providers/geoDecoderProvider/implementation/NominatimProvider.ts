@@ -14,6 +14,7 @@ export class NominatimProvider implements IGeodecoderProvider {
         baseURL: this.baseUrl,
         method: "GET",
       });
+      
 
       return getOsmId(data);
     } catch (e: any) {
@@ -34,6 +35,7 @@ function getOsmId(elements: [Api.Features]) {
       break;
     }
   }
+  
   return result;
 }
 

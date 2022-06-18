@@ -8,9 +8,9 @@ export class GetBusStopController {
     const q = request.query.q as string;
 
     try {
-      console.log("controller", q);
+      
       const data = await this.getBusStopUseCase.execute({ q });
-      console.log(data);
+      
       return response.status(201).json(data);
     } catch (err: any) {
       return response.status(400).json({
