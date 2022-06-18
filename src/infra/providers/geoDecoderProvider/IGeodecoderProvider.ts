@@ -1,3 +1,3 @@
 export interface IGeodecoderProvider {
-  getAreaId(params: Object): Promise<number | undefined>;
+  getAreaId(q: string): Promise<number | undefined>;
 }

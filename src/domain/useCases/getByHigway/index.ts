@@ -1,14 +1,14 @@
 import { OverpassProvider } from "../../../infra/providers/geoDataProvider/implementation/OverpassProvider";
 import { NominatimProvider } from "../../../infra/providers/geoDecoderProvider/implementation/NominatimProvider";
-import { GetBusStopController } from "./getBusStopController";
-import { GetBusStopUseCase } from "./getBusStopUseCase";
+import { GetByHigwayController } from "./getByHigwayController";
+import { GetByHigwayUseCase} from "./getByHigwayUseCase";
 
 const geodataProvider = new OverpassProvider();
 const geodecoderProvider = new NominatimProvider();
-const getBusStopUseCase = new GetBusStopUseCase(
+const getHigwayUseCase = new GetByHigwayUseCase(
   geodataProvider,
   geodecoderProvider
 );
-const getBusStopController = new GetBusStopController(getBusStopUseCase);
+const getByHigwayController = new GetByHigwayController(getHigwayUseCase );
 
-export default getBusStopController;
+export default getByHigwayController;

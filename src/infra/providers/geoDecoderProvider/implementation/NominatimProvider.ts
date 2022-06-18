@@ -7,10 +7,10 @@ export class NominatimProvider implements IGeodecoderProvider {
   private http = Axios;
   public baseUrl = env.geoDecoderProviderBaseUrl;
 
-  async getAreaId(params: Object): Promise<number | undefined> {
+  async getAreaId(q: string): Promise<number | undefined> {
     try {
       const { data } = await this.http.get<Api.Received>(this.baseUrl, {
-        params: params,
+        params: {q,format: "json"},
         baseURL: this.baseUrl,
         method: "GET",
       });
@@ -39,5 +39,5 @@ function getOsmId(elements: [Api.Features]) {
   return result;
 }
 
-const teste = new NominatimProvider();
-teste.getAreaId({ q: "toledo+parana", format: "json" });
+
+
