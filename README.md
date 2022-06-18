@@ -45,3 +45,18 @@ o desafio consiste em desenvolver uma aplicação que implemente o conceito de w
  ┃ ┗ 📂services
  ┗ 📜server.ts
 ```
+```
+📦src                         #pasta source onde se encontra toda a aplicação
+ ┣ 📂core                     #pasta onde estão todos os enpoints da aplicação
+ ┣ 📂domain                   #pasta com o core da aplicação 
+ ┃ ┣ 📂entities               #pasta onde esta as entidades usadas na aplicação
+ ┃ ┗ 📂useCases               #pasta onde estão os casos de uso da aplicação
+ ┃ ┃ ┣ 📂getByHigway          #caso de uso que pega features com chaves highway
+ ┃ ┃ ┗ 📂getDataByAmenity     #caso de uso que pega features com chaves Amenity
+ ┣ 📂infra                    #infra  com todos os provider 
+ ┃ ┣ 📂providers              #todos os providers que aplicação usa
+ ┃ ┃ ┣ 📂geoDataProvider      #provedor de dados para a aplicação 
+ ┃ ┃ ┗ 📂geoDecoderProvider   #provedor de nomes para a aplicação
+ ┣ 📂main                     #pastacom constants
+ ┗ 📜server.ts                #arquivo que configura e disponibiliza os serviçoes em uma porta especifica
+```
