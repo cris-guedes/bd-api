@@ -35,17 +35,6 @@ o desafio consiste em desenvolver uma aplicação que implemente o conceito de w
 ### Folders structure (simplified)
 
 ```
-📦src
- ┣ 📂core                   #Mapeia os endpoint para os casos de usoas
- ┣ 📂domain                 #Camada de dominio com os casos de uso e entidades da aplicação
- ┃ ┣ 📂entities
- ┃ ┗ 📂useCases
- ┣ 📂infra                  #Camada de infraestrutura com os repositorios e serviços
- ┃ ┣ 📂repositories
- ┃ ┗ 📂services
- ┗ 📜server.ts
-```
-```
 📦src                         #pasta source onde se encontra toda a aplicação
  ┣ 📂core                     #pasta onde estão todos os enpoints da aplicação
  ┣ 📂domain                   #pasta com o core da aplicação 
